@@ -1,13 +1,13 @@
-## SQLAlchemy Challenge
+# SQLAlchemy Challenge
 
-# Files
+## Files
 
 All files are contained within the 'SurfsUp' folder:
 - The analysis and charts for part 1 can be found in the 'climate.ipynb' file.
 - The script for part 2 be found in the 'app.py' file.
 - The 'Resources' folder contains the SQLite file ('hawaii.sqlite') as well as both tables ('measurements.csv' and 'stations.csv').
 
-# PART 1: SQLAlchemy Exploratory Analysis
+## PART 1: SQLAlchemy Exploratory Analysis
 
 For this challenge, SQLAlchemy was used to query and manipulate a SQLite database using python in Jupyter Notebook.
 
@@ -15,7 +15,7 @@ For this challenge, SQLAlchemy was used to query and manipulate a SQLite databas
 
 All data including charts can be found in the climate.ipynb file.
 
-# PART 2: Climate API
+## PART 2: Climate API
 
 The results of the previous analysis were then loaded into an app using Flask to return data in JSON format.
 
@@ -43,3 +43,7 @@ If both a start and end date are provided, the values returned will be for the t
 If only a start date is provided, the values returned will be for all dates greater than or equal to the start date.
 
 ![summary_stats](https://github.com/ashejaz/sqlalchemy-challenge/assets/127614970/1e838780-2cd3-42ca-ae4f-9e8dcf26ad21)
+
+## References
+
+All source data used has been provided by the edX University of Birmingham Data Analytics Bootcamp.
