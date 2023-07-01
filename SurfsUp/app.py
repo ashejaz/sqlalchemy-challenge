@@ -111,14 +111,14 @@ def temperature_stats(start, end=None):
     # If no end date provided:
     if end:
         temperature_stats_data = session.query(func.min(Measurement.tobs),
-                                               func.avg(Measurement.tobs),
+                                               func.round(func.avg(Measurement.tobs),1),
                                                func.max(Measurement.tobs)).\
             filter(Measurement.date >= start).\
             filter(Measurement.date <= end).all()
     else:
         # If end date provided:
         temperature_stats_data = session.query(func.min(Measurement.tobs),
-                                               func.avg(Measurement.tobs),
+                                               func.round(func.avg(Measurement.tobs),1),
                                                func.max(Measurement.tobs)).\
             filter(Measurement.date >= start).all()
     session.close()
