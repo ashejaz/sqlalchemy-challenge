@@ -1,6 +1,15 @@
+## SQLAlchemy Challenge
+
+# Files
+
+All files are contained within the 'SurfsUp' folder.
+The analysis and charts for part 1 can be found in the 'climate.ipynb' file.
+The script for part 2 be found in the 'app.py' file.
+The 'Resources' folder contains the SQLite file ('hawaii.sqlite') as well as both tables ('measurements.csv' and 'stations.csv').
+
 # PART 1: SQLAlchemy Exploratory Analysis
 
-For this challange, SQLAlchemy was used to query and manipulate a SQLite database using python in Jupyter Notebook.
+For this challenge, SQLAlchemy was used to query and manipulate a SQLite database using python in Jupyter Notebook.
 
 2 tables containing climate data ('measurement' and 'stations') were reflected, and a session created. A series of queries were then performed on preciptation levels and temperature observations with visualisations created.
 
