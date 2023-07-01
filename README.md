@@ -2,10 +2,10 @@
 
 # Files
 
-All files are contained within the 'SurfsUp' folder.
-The analysis and charts for part 1 can be found in the 'climate.ipynb' file.
-The script for part 2 be found in the 'app.py' file.
-The 'Resources' folder contains the SQLite file ('hawaii.sqlite') as well as both tables ('measurements.csv' and 'stations.csv').
+All files are contained within the 'SurfsUp' folder:
+- The analysis and charts for part 1 can be found in the 'climate.ipynb' file.
+- The script for part 2 be found in the 'app.py' file.
+- The 'Resources' folder contains the SQLite file ('hawaii.sqlite') as well as both tables ('measurements.csv' and 'stations.csv').
 
 # PART 1: SQLAlchemy Exploratory Analysis
 
